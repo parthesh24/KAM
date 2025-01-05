@@ -206,15 +206,8 @@ The **Key Account Manager (KAM) Lead Management System** is designed to help KAM
 1. **Set Up Application**:
    - Follow the setup steps to initialize the application.
 
-2. **Record a Demo**:
-   - Use tools like OBS or Zoom to record:
-     - Setting up the application.
-     - Adding, updating, and deleting leads.
-     - Interactions with contacts and tracking features.
-     - Simple dashboard functionalities.
-
-3. **Upload the Demo**:
-   - Provide a link to the demo in the submission.
+2. **Upload the Demo**:
+   Demo Link: https://drive.google.com/file/d/1_zPL1Qnd8k0k_wG1fpZQTfdo671BVN7I/view?usp=sharing
 
 ---
 
