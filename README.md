@@ -77,8 +77,8 @@ The **Key Account Manager (KAM) Lead Management System** is designed to help KAM
 ### **Steps**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/kam-lead-management.git
-   cd kam-lead-management
+   git clone https://github.com/parthesh24/KAM.git
+   cd KAM
    ```
 2. Install dependencies:
    ```bash
@@ -218,10 +218,5 @@ The **Key Account Manager (KAM) Lead Management System** is designed to help KAM
 
 ---
 
-## **Timeline**
-- **Submission Deadline**: January 5th, 2025
-- Early submissions are encouraged.
-
----
-
-For further questions or clarifications, please contact the project manager.
+For further questions or clarifications, please contact Parthesh Patel.
+email: parthesh944@gmail.com
