@@ -1,0 +1,210 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+form input,
+form select,
+form button {
+    width: calc(50% - 15px);
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border 0.2s;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #007bff;
+}
+
+form button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Leads List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+li p {
+    margin: 5px 0;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+/* Buttons for actions */
+li button {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+li button:first-child {
+    background-color: #28a745;
+    color: white;
+}
+
+li button:first-child:hover {
+    background-color: #218838;
+}
+
+li button:last-child {
+    background-color: #dc3545;
+    color: white;
+}
+
+li button:last-child:hover {
+    background-color: #c82333;
+}
+
+/* Loading Spinner */
+.loading {
+    text-align: center;
+    font-size: 16px;
+    color: #007bff;
+}
+
+/* Edit Lead Container */
+.edit-lead-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Edit Lead Title */
+.edit-lead-container h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+}
+
+/* Edit Lead Inputs */
+.edit-lead-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border 0.2s;
+}
+
+.edit-lead-container input:focus {
+    border-color: #007bff;
+}
+
+/* Edit Lead Buttons */
+.edit-lead-container button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.edit-lead-container button:first-child {
+    background-color: #007bff;
+    color: white;
+}
+
+.edit-lead-container button:first-child:hover {
+    background-color: #0056b3;
+}
+
+.edit-lead-container button:last-child {
+    background-color: #dc3545;
+    color: white;
+}
+
+.edit-lead-container button:last-child:hover {
+    background-color: #c82333;
+}
+
+.contact-link-button {
+    background-color: #4299e1 !important;
+    color: white !important;
+    padding: 5px 10px !important;
+    font-size: 14px !important;
+    border-radius: 5px !important;
+    text-transform: none !important;
+    margin-left: 10px !important;
+}
+
+.contact-link-button:hover {
+    background-color: #3182ce !important;
+}
